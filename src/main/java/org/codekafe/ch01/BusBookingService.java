@@ -1,7 +1,7 @@
 package org.codekafe.ch01;
 
 public class BusBookingService {
-    private int[] seats;
+    private final int[] seats;
     private int seatCounter = 0;
    public BusBookingService(int seats){
        this.seats = new int[seats];

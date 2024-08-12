@@ -1,7 +1,7 @@
 package org.codekafe.ch02;
 
 public class BusBookingServiceSynchronized {
-    private int[] seats;
+    private final int[] seats;
     private int seatCounter = 0;
    public BusBookingServiceSynchronized(int seats){
        this.seats = new int[seats];
